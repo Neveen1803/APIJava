@@ -1,0 +1,63 @@
+@charset "UTF-8";
+html,body{
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background:#e02162;
+}
+
+
+.optionbox{
+
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.optionbox input {
+    background: #E91E63;
+    color: #fff;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 48px rgb(93, 15, 9);
+    -webkit-appearance: button;
+    outline: none;
+}
+#submit{
+	height: 69px;
+    width: 92px;
+}
+#container{
+  /* height:300px; */
+  width:1224px;
+  border: 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.Box{
+  height:75px;
+  width:200px;
+  border:2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 25px;
+}
+
+
+.Box1{
+  background-color: #f5105c;
+}
+
